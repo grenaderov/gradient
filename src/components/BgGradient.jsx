@@ -25,7 +25,7 @@ export class BgGradient extends React.Component {
   };
 
   handleChangeColor = color => {
-    this.setState(this.setColorBg(this.state.selectedType, color.hex));
+    this.setColorBg(this.state.selectedType, color.hex);
   };
 
   render() {
